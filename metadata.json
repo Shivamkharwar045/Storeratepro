@@ -1,0 +1,6 @@
+{
+  "name": "StoreRate Pro - Full-Stack Store Rating Platform",
+  "description": "Enterprise-grade Full-Stack Store Rating platform with Role-Based Access Control for System Administrators, Store Owners, and Users, featuring real-time rating updates, filtering, sorting, and rigorous form validation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

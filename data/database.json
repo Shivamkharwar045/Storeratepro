@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "System Administrator Roxiler",
+      "email": "admin@roxiler.com",
+      "password": "Admin@123",
+      "address": "99 Tech Corporate Plaza, Ring Road Square, Bhopal, Madhya Pradesh",
+      "role": "ADMIN",
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "usr_owner_abc",
+      "name": "Rajesh Kumar Store Owner",
+      "email": "owner.abc@gmail.com",
+      "password": "Owner@123",
+      "address": "142 Commercial Market Ring Road, Bhopal, Madhya Pradesh",
+      "role": "STORE_OWNER",
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "usr_owner_xyz",
+      "name": "Priya Sharma Mart Owner",
+      "email": "owner.xyz@gmail.com",
+      "password": "Owner@123",
+      "address": "55 Palasia Square Business Center, Indore, Madhya Pradesh",
+      "role": "STORE_OWNER",
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "usr_shivam",
+      "name": "Shivam Kharwar Assessment",
+      "email": "shivam.kharwar@gmail.com",
+      "password": "Shivam@123",
+      "address": "101 Civil Lines Model Town, Jabalpur, Madhya Pradesh",
+      "role": "USER",
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "usr_amit",
+      "name": "Amit Vikram Singh Developer",
+      "email": "amit.singh@gmail.com",
+      "password": "Amit@1234",
+      "address": "34 Sector B, Arera Colony, Bhopal, Madhya Pradesh",
+      "role": "USER",
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "usr_neha",
+      "name": "Neha Sunita Patel Reviewer",
+      "email": "neha.patel@gmail.com",
+      "password": "Neha@1234",
+      "address": "88 South Tukoganj Avenue, Indore, Madhya Pradesh",
+      "role": "USER",
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "usr_rahul",
+      "name": "Rahul Devendra Verma Tester",
+      "email": "rahul.verma@gmail.com",
+      "password": "Rahul@123",
+      "address": "12 New Subhash Nagar Main, Gwalior, Madhya Pradesh",
+      "role": "USER",
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    }
+  ],
+  "stores": [
+    {
+      "id": "str_abc",
+      "name": "ABC Supermarket & Electronics",
+      "email": "abc.store@retail.com",
+      "address": "142 Commercial Market Ring Road, Bhopal, Madhya Pradesh",
+      "ownerId": "usr_owner_abc",
+      "category": "Electronics & Supermarket",
+      "phone": "+91 755 244 8900",
+      "operatingHours": "Open · Closes 10:00 PM",
+      "imageUrl": "/src/assets/images/store_electronics_supermarket_1791094057760.jpg",
+      "isVerified": true,
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "str_xyz",
+      "name": "XYZ Mega Retail Hub",
+      "email": "xyz.store@retail.com",
+      "address": "55 Palasia Square Business Center, Indore, Madhya Pradesh",
+      "ownerId": "usr_owner_xyz",
+      "category": "Department Store & Fashion",
+      "phone": "+91 731 422 1100",
+      "operatingHours": "Open · Closes 11:00 PM",
+      "imageUrl": "/src/assets/images/store_mega_retail_hub_1791094072971.jpg",
+      "isVerified": true,
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "str_metro",
+      "name": "Metro Fresh Hypermarket",
+      "email": "metro.fresh@retail.com",
+      "address": "88 M.G. Road Commercial Complex, Bengaluru, Karnataka",
+      "ownerId": "usr_owner_abc",
+      "category": "Groceries & Gourmet",
+      "phone": "+91 80 2558 7700",
+      "operatingHours": "Open · Closes 9:30 PM",
+      "imageUrl": "/src/assets/images/store_hypermarket_fresh_1791094085904.jpg",
+      "isVerified": true,
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "str_apex",
+      "name": "Apex Hardware & Industrial Tools",
+      "email": "apex.tools@retail.com",
+      "address": "12 Industrial Phase 2, Pune, Maharashtra",
+      "ownerId": "usr_owner_xyz",
+      "category": "Hardware & Industrial Tools",
+      "phone": "+91 20 2749 3300",
+      "operatingHours": "Open · Closes 8:00 PM",
+      "imageUrl": "/src/assets/images/store_hardware_tools_1791094099176.jpg",
+      "isVerified": true,
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    },
+    {
+      "id": "str_sunrise",
+      "name": "Sunrise Organic Produce & Groceries",
+      "email": "sunrise.organic@retail.com",
+      "address": "73 Green Valley Boulevard, Jaipur, Rajasthan",
+      "ownerId": "usr_owner_abc",
+      "category": "Organic Goods & Wellness",
+      "phone": "+91 141 278 4400",
+      "operatingHours": "Open · Closes 9:00 PM",
+      "imageUrl": "/src/assets/images/store_hypermarket_fresh_1791094085904.jpg",
+      "isVerified": true,
+      "createdAt": "2026-10-04T05:54:03.932Z"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "rtg_1",
+      "userId": "usr_shivam",
+      "storeId": "str_abc",
+      "rating": 5,
+      "createdAt": "2026-10-01T05:54:03.932Z",
+      "updatedAt": "2026-10-01T05:54:03.932Z"
+    },
+    {
+      "id": "rtg_2",
+      "userId": "usr_amit",
+      "storeId": "str_abc",
+      "rating": 4,
+      "createdAt": "2026-10-02T05:54:03.932Z",
+      "updatedAt": "2026-10-02T05:54:03.932Z"
+    },
+    {
+      "id": "rtg_3",
+      "userId": "usr_neha",
+      "storeId": "str_abc",
+      "rating": 4,
+      "createdAt": "2026-10-03T05:54:03.932Z",
+      "updatedAt": "2026-10-03T05:54:03.932Z"
+    },
+    {
+      "id": "rtg_4",
+      "userId": "usr_rahul",
+      "storeId": "str_abc",
+      "rating": 5,
+      "createdAt": "2026-10-04T00:54:03.932Z",
+      "updatedAt": "2026-10-04T00:54:03.932Z"
+    },
+    {
+      "id": "rtg_5",
+      "userId": "usr_shivam",
+      "storeId": "str_xyz",
+      "rating": 4,
+      "createdAt": "2026-10-02T05:54:03.932Z",
+      "updatedAt": "2026-10-02T05:54:03.932Z"
+    },
+    {
+      "id": "rtg_6",
+      "userId": "usr_amit",
+      "storeId": "str_xyz",
+      "rating": 3,
+      "createdAt": "2026-10-03T05:54:03.932Z",
+      "updatedAt": "2026-10-03T05:54:03.932Z"
+    },
+    {
+      "id": "rtg_7",
+      "userId": "usr_neha",
+      "storeId": "str_metro",
+      "rating": 5,
+      "createdAt": "2026-10-03T05:54:03.932Z",
+      "updatedAt": "2026-10-03T05:54:03.932Z"
+    }
+  ]
+}
